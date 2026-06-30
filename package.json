@@ -1,0 +1,17 @@
+{
+  "name": "jhs-fotografi-system",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "website",
+    "backend",
+    "whatsapp-bot"
+  ],
+  "scripts": {
+    "dev": "echo \"Run each workspace separately\"",
+    "install:all": "npm install"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
